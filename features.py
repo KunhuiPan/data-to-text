@@ -250,4 +250,7 @@ feature_cards = {' total amount in transactions': 'total transaction amount',
                 'Custtype_individ': 'individual customer',
                 'Custtype_organisa': 'organisation customer',
                 # 'Custtype_infrequent_sklearn'
+
+                'prediction': 'the probability of the case being false alert',
+                 'y': 'y=0 not criminal activity' 'y=1 criminal activity'
 }

@@ -143,7 +143,7 @@ def generate_explanation(top_features_dict, prediction, num_features=3):
 
     return explanations
 
-
+# Show instances in text format
 explanations = generate_explanation(top_features_dict, predictions, num_features=3)
 print(explanations[0])
 print('--------------------')
